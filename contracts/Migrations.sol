@@ -1,3 +1,4 @@
+//SPDX-License-Identifier: Apache-2.0
 pragma solidity >=0.6.0 <0.8.0;
 
 
@@ -6,7 +7,7 @@ contract Migrations {
     // solium-disable-next-line mixedcase
     uint public last_completed_migration;
 
-    constructor() public {
+    constructor() {
         owner = msg.sender;
     }
 
